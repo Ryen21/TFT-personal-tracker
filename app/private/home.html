@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TFT Tracker - Home</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Personal TFT Tracker</h1>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/match-history">Past Matches</a></li>
+        <li><a href="/recommender">Gameplay Recommendations</a></li>
+        <li><a href="/">Go Back to Start</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="player-card">
+        <h2 id="player-name"></h2>
+        <p id="games-played"></p>
+        <p id="rank"></p>
+        <p id="lp"></p>
+        <p id="top-four"></p>
+        <span id="error-span" class="error-text"></span>
+    </div>
+  </main>
+</body>
+<script src="/js/home.js"></script>
+</html>

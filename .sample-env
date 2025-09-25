@@ -1,0 +1,9 @@
+# Riot API credentials
+RIOT_API_KEY=your-api-key-here
+
+# Riot API endpoints
+RIOT_MATCH_API_URL=https://americas.api.riotgames.com
+RIOT_LEAGUE_API_URL=https://na1.api.riotgames.com
+
+# Application port
+PORT=3000

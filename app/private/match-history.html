@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TFT Tracker - Match History</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Personal TFT Tracker</h1>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/match-history">Past Matches</a></li>
+        <li><a href="/recommender">Gameplay Recommendations</a></li>
+        <li><a href="/">Go Back to Start</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Match History</h1>
+
+    <div class="form-wrapper">
+      <form id="match-count-form">
+        <label for="match-count">Show last:</label>
+        <select id="match-count">
+          <option value="5">5 matches</option>
+          <option value="15">15 matches</option>
+          <option value="30">30 matches</option>
+        </select>
+        <button type="submit">Update</button>
+      </form>
+    </div>
+
+    <div id="match-history-container" class="match-history-container">
+      <span id="error-span" class="error-text"></span>
+    </div>
+  </main>
+</body>
+<script src="/js/match-history.js"></script>
+</html>

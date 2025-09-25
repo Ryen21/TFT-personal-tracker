@@ -1,0 +1,9 @@
+# Env file
+.env
+
+# Third Party Packages
+node_modules/
+package-lock.json
+
+# Shell Scripts
+*.sh
